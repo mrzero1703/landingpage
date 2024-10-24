@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  width: 1080px;
+  height: 3048px;
+  font-family: "Inter";
+}
+
+#header {
+  display: flex;
+  width: 1080px;
+  height: 68px;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+#header .logo img {
+  width: 250px;
+  height: 68px;
+}
+
+#header .menu {
+  width: 830px;
+  height: 48px;
+  padding-top: 20px;
+  padding-left: 10px;
+  display: flex;
+}
+
+#header .menu span, button {
+  margin: auto;
+}
+
+
+#header .menu button{
+    background-color: #4CAF4F;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+}
+#header .menu .register-header {
+  width: 140px;
+  height: 48px;
+  margin-top: -10px;
+}
+
+
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter";
+    padding-top: 8rem;
+    height: 416.95px;
+}
+.banner-section .text-banner-section{
+    line-height: 50px;
+    margin-left: 10px;
+}
+.banner-section .text-banner-section 
+.text-banner-head {
+    font-size: 50px;
+    font-weight:bolder ;
+}
+.text-banner-decription{
+    font-size: 11px;
+    line-height: 17px;
+    opacity: 0.6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banner-section .register-btn{
+    font-family: "Inter";
+    width: 90px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #4CAF4F;
+    border: none;
+    color:#ffff ;
+}
+.banner-section .img-banner-section img{
+    width: 350px;
+    margin-top: -100px;
+    margin-right: 0px;
+}
+.slide-dot .slide{
+    background-color: #4CAF4F;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+   margin: 2px;
+}
+.slide-dot{
+    display:inline-flex;
+    width: 100%;
+    justify-content:center;
+}
+.clients{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.clients .text-clients{
+    font-size: 30px;
+    font-weight: bolder;
+   
+    
+}
+.clients-decription{
+    line-height: 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+.logo-clients-section{
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+}
+.clients .logo-clients-section img{
+    margin-top: -95px;
+    height: 200px;
+    width: 100%;
+}
+/*# sourceMappingURL=app.scss.map */
